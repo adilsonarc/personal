@@ -11569,6 +11569,11 @@ html {
   border-radius: 1rem !important;
 }
 
+.text-alternative {
+  --bs-text-opacity: 1;
+  color: color-mix(in srgb, #1e30f3, #e21e80) !important;
+}
+
 .feature {
   display: inline-flex;
   align-items: center;
